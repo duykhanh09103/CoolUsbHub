@@ -8965,6 +8965,10 @@
 		(uuid "132df632-e517-4e85-8d7f-39553536f610")
 	)
 	(no_connect
+		(at 340.36 81.28)
+		(uuid "144b1ff4-015d-4eb1-8171-1f73df8ab1b9")
+	)
+	(no_connect
 		(at 63.5 153.67)
 		(uuid "18867a89-46a7-48c3-a3cc-e1d6e01d4509")
 	)
@@ -9011,6 +9015,10 @@
 	(no_connect
 		(at 278.13 60.96)
 		(uuid "5d97fd72-f56b-4f71-bbb1-c621290c4d18")
+	)
+	(no_connect
+		(at 278.13 53.34)
+		(uuid "6a62718d-0356-4276-bd71-db10539565e2")
 	)
 	(no_connect
 		(at 99.06 146.05)
@@ -11544,7 +11552,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "063a3df5-5978-4436-834a-913fbc796f97")
-		(property "Reference" "ETHERNET_CONTROLLER"
+		(property "Reference" "ETHERNET_CONTROLLER1"
 			(at 309.245 86.36 0)
 			(effects
 				(font
@@ -11722,7 +11730,7 @@
 		(instances
 			(project ""
 				(path "/a66e963d-9223-4dd6-b11b-c5e7c640f212"
-					(reference "ETHERNET_CONTROLLER")
+					(reference "ETHERNET_CONTROLLER1")
 					(unit 1)
 				)
 			)
@@ -13387,7 +13395,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5324451b-22d7-4f9b-93fa-9b2e444ef9b8")
-		(property "Reference" "USB_CONTROLLER"
+		(property "Reference" "USB_CONTROLLER1"
 			(at 81.28 204.47 0)
 			(effects
 				(font
@@ -13637,7 +13645,7 @@
 		(instances
 			(project ""
 				(path "/a66e963d-9223-4dd6-b11b-c5e7c640f212"
-					(reference "USB_CONTROLLER")
+					(reference "USB_CONTROLLER1")
 					(unit 1)
 				)
 			)
@@ -15523,7 +15531,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aafa9b42-3302-462b-9a41-28f379a0ae6d")
-		(property "Reference" "USBC_IN"
+		(property "Reference" "USBC_IN1"
 			(at 218.0433 198.12 0)
 			(effects
 				(font
@@ -15664,7 +15672,7 @@
 		(instances
 			(project ""
 				(path "/a66e963d-9223-4dd6-b11b-c5e7c640f212"
-					(reference "USBC_IN")
+					(reference "USBC_IN1")
 					(unit 1)
 				)
 			)
@@ -17771,7 +17779,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e44df776-3454-44a3-a5cc-8ae860d45a69")
-		(property "Reference" "USBC_OUT"
+		(property "Reference" "USBC_OUT1"
 			(at 61.8333 31.75 0)
 			(effects
 				(font
@@ -17912,7 +17920,7 @@
 		(instances
 			(project "VeryCoolUsbHub"
 				(path "/a66e963d-9223-4dd6-b11b-c5e7c640f212"
-					(reference "USBC_OUT")
+					(reference "USBC_OUT1")
 					(unit 1)
 				)
 			)
