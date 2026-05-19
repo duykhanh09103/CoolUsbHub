@@ -1,4 +1,4 @@
-26406663386702896
+26439180104225507
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59696,6 +59696,13 @@ CRYSTAL-SMD_4P-L3.2-W2.5-BL-2
 4
 4
 EasyEDA
+DO-35_BD2.0-L4.0-P8.00-D0.5-FD
+
+
+0
+2
+2
+EasyEDA
 LED-SMD_4P-L3.2-W2.8_SK6812MINI-EA
 
 
@@ -59709,6 +59716,13 @@ QFN-24_L4.0-W4.0-P0.50-BL-EP2.0
 0
 25
 25
+EasyEDA
+QFN-32_L4.0-W4.0-P0.40-TL-EP2.9
+
+
+0
+33
+33
 EasyEDA
 QFN-40_L5.0-W5.0-P0.40-BL-EP3.7
 
@@ -59724,7 +59738,28 @@ QFN-64_L8.0-W8.0-P0.40-BL-EP5.4
 65
 65
 EasyEDA
+QFN-64_L9.0-W9.0-P0.50-TL-EP6.0
+
+
+0
+65
+65
+EasyEDA
 R0402
+
+
+0
+2
+2
+EasyEDA
+R0603
+
+
+0
+2
+2
+EasyEDA
+R1206
 
 
 0
@@ -59759,6 +59794,13 @@ SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR
 3
 3
 EasyEDA
+USB-C-SMD_TYPE-C-G05-1TDW
+
+
+0
+32
+25
+EasyEDA
 USB-C-SMD_TYPE-C-USB-20
 
 
@@ -59779,6 +59821,13 @@ USB-TH_USB3.0-A
 0
 11
 10
+EasyEDA
+WQFN-30_L4.5-W2.5-P0.4-BL-EP
+
+
+0
+31
+31
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -69033,6 +69082,20 @@ Yellow 5381 Series LED
 0
 2
 2
+Library
+SSD1306-0.91-OLED-4pin-128x32
+
+
+0
+4
+4
+Library
+Untitled
+
+
+0
+0
+0
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -104957,3 +105020,73 @@ Varistor VF
 0
 2
 2
+footprints
+RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm
+Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+7
+6
+footprints
+RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_CircularMountingHoles
+Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+7
+6
+footprints
+RotaryEncoder_Alps_EC11E_Vertical_H20mm
+Alps rotary encoder, EC12E... without switch (pins are dummy), vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+7
+4
+footprints
+RotaryEncoder_Alps_EC11E_Vertical_H20mm_CircularMountingHoles
+Alps rotary encoder, EC12E... without switch (pins are dummy), vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+7
+4
+footprints
+RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm
+Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC12E/EC12E1240405.html & http://cdn-reichelt.de/documents/datenblatt/F100/402097STEC12E08.PDF
+rotary encoder
+0
+7
+6
+footprints
+RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm_CircularMountingHoles
+Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC12E/EC12E1240405.html & http://cdn-reichelt.de/documents/datenblatt/F100/402097STEC12E08.PDF
+rotary encoder
+0
+7
+6
+footprints
+RotaryEncoder_Alps_EC12E_Vertical_H20mm
+Alps rotary encoder, EC12E..., vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC12E/EC12E1240405.html
+rotary encoder
+0
+5
+4
+footprints
+RotaryEncoder_Alps_EC12E_Vertical_H20mm_CircularMountingHoles
+Alps rotary encoder, EC12E..., vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC12E/EC12E1240405.html
+rotary encoder
+0
+5
+4
+footprints
+SK6812MINI-E_fixed
+Add-on for regular MX-footprints with SK6812 MINI-E
+cherry MX SK6812 Mini-E rearmount rear mount led rgb backlight
+0
+4
+4
+footprints
+XIAO-Generic-Hybrid-14P-2.54-21X17.8MM
+
+
+0
+14
+14
