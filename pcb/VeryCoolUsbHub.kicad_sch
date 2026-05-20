@@ -9291,6 +9291,12 @@
 		(uuid "78053f5f-2511-4fa4-b8c7-5663cc410021")
 	)
 	(junction
+		(at 153.67 247.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7cca98e5-4d41-44f1-9089-9bbeefeb7ce7")
+	)
+	(junction
 		(at 544.83 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9451,6 +9457,10 @@
 		(uuid "65f3dbcf-1bea-4b85-b45b-2a3d9b65c5ed")
 	)
 	(no_connect
+		(at 504.19 54.61)
+		(uuid "66ecabd8-b175-46d6-a2c7-5581155903b4")
+	)
+	(no_connect
 		(at 441.96 54.61)
 		(uuid "6a62718d-0356-4276-bd71-db10539565e2")
 	)
@@ -9497,6 +9507,10 @@
 	(no_connect
 		(at 109.22 275.59)
 		(uuid "a78a8eef-5285-4525-bde4-1a5385a42131")
+	)
+	(no_connect
+		(at 144.78 214.63)
+		(uuid "a8060cf4-2640-45fe-b2e1-7e297603d25f")
 	)
 	(no_connect
 		(at 109.22 262.89)
@@ -10024,7 +10038,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 247.65) (xy 162.56 247.65)
+			(xy 144.78 247.65) (xy 153.67 247.65)
 		)
 		(stroke
 			(width 0)
@@ -10211,6 +10225,16 @@
 			(type default)
 		)
 		(uuid "5692f25b-be44-4889-b210-3cbc5c2d5d4f")
+	)
+	(wire
+		(pts
+			(xy 104.14 257.81) (xy 109.22 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cd1c941-0b2a-4aa8-ab20-2ad60fdf9e95")
 	)
 	(wire
 		(pts
@@ -10641,6 +10665,16 @@
 			(type default)
 		)
 		(uuid "930d6bdd-8cec-44e5-ba93-a3b00e7f7eea")
+	)
+	(wire
+		(pts
+			(xy 153.67 247.65) (xy 162.56 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96054e21-01f7-49c5-8df0-75b41ed25f6c")
 	)
 	(wire
 		(pts
@@ -11204,7 +11238,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 250.19) (xy 109.22 250.19)
+			(xy 105.41 250.19) (xy 109.22 250.19)
 		)
 		(stroke
 			(width 0)
@@ -12103,7 +12137,7 @@
 		(uuid "9b32877f-846c-4f37-83df-c89af3354b47")
 	)
 	(label "V3.3"
-		(at 106.68 250.19 180)
+		(at 105.41 250.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17728,6 +17762,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 316.23 337.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d40809c-5d4e-4bd4-9736-124a9b33f6c9")
+		(property "Reference" "#PWR027"
+			(at 316.23 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 314.96 334.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 316.23 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 316.23 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 316.23 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5eca8943-3f0b-4553-9c4b-2da1dd47f50f")
+		)
+		(instances
+			(project "VeryCoolUsbHub"
+				(path "/a66e963d-9223-4dd6-b11b-c5e7c640f212"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 478.79 184.15 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18753,6 +18853,100 @@
 			(project "VeryCoolUsbHub"
 				(path "/a66e963d-9223-4dd6-b11b-c5e7c640f212"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:RC0402FR-0710KL")
+		(at 99.06 257.81 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "99a53bb3-d575-4b6b-846b-1e5be6670aae")
+		(property "Reference" "R2"
+			(at 98.806 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RC0402FR-0710KL"
+			(at 99.06 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:R0402"
+			(at 99.06 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_10KR-1002-1_C60490.html"
+			(at 99.06 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10kΩ ±1%/62.5mW/0402"
+			(at 99.568 255.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO(国巨)"
+			(at 99.06 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-0710KL"
+			(at 99.06 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C60490"
+			(at 99.06 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55290c92-fbb6-4125-aa82-3d2008e660e0")
+		)
+		(pin "2"
+			(uuid "b611d2a0-794d-44dc-ada0-20860d728600")
+		)
+		(instances
+			(project "VeryCoolUsbHub"
+				(path "/a66e963d-9223-4dd6-b11b-c5e7c640f212"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -21271,6 +21465,72 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
+		(at 93.98 257.81 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d9902616-7e55-492a-910f-046b1b74142b")
+		(property "Reference" "#PWR038"
+			(at 97.79 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 96.012 259.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 93.98 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57a456e4-ac20-4efd-b166-7065367870aa")
+		)
+		(instances
+			(project "VeryCoolUsbHub"
+				(path "/a66e963d-9223-4dd6-b11b-c5e7c640f212"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
 		(at 43.18 379.73 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21904,6 +22164,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 153.67 240.03 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f213dee6-275d-4dad-ae0d-c2894ef94980")
+		(property "Reference" "#PWR039"
+			(at 153.67 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 236.982 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 153.67 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f67c60e-4ac1-43f6-a9c4-0fd5857b6867")
+		)
+		(instances
+			(project "VeryCoolUsbHub"
+				(path "/a66e963d-9223-4dd6-b11b-c5e7c640f212"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 67.31 260.35 90)
 		(unit 1)
@@ -22191,6 +22517,84 @@
 			(project "VeryCoolUsbHub"
 				(path "/a66e963d-9223-4dd6-b11b-c5e7c640f212"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:CC0603JRNPO9BN390")
+		(at 153.67 243.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f81dde38-b2df-4042-9e65-a59d592c69d3")
+		(property "Reference" "C25"
+			(at 159.004 242.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CC0603JRNPO9BN390"
+			(at 157.48 245.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:C0603"
+			(at 161.29 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_39pF-390-5-50V_C107049.html"
+			(at 163.83 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V/39pF/±5%/0603"
+			(at 167.132 245.364 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C107049"
+			(at 166.37 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "63c9bd8b-aae0-4033-815e-ecb84fdeadcf")
+		)
+		(pin "1"
+			(uuid "937b9aa1-73a5-4346-9b7c-78ace1edff3e")
+		)
+		(instances
+			(project "VeryCoolUsbHub"
+				(path "/a66e963d-9223-4dd6-b11b-c5e7c640f212"
+					(reference "C25")
 					(unit 1)
 				)
 			)
