@@ -19969,7 +19969,7 @@
 			)
 		)
 		(property "Description" "10kΩ ±1%/62.5mW/0402"
-			(at 99.568 255.016 0)
+			(at 98.806 255.016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20053,7 +20053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C871499.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C871726.pdf"
 			(at 193.04 93.98 0)
 			(effects
 				(font
