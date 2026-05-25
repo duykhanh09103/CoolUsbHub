@@ -11865,16 +11865,6 @@
 		)
 		(uuid "2ac9b621-ddc5-40a3-ae66-64da2418bc02")
 	)
-	(label "MDIN2"
-		(at 438.15 52.07 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2bea9944-03ad-442d-9227-59b8750c0e4e")
-	)
 	(label "USBC_OUT_RXP2"
 		(at 111.76 69.85 0)
 		(effects
@@ -12025,6 +12015,16 @@
 		)
 		(uuid "4473d610-7eb4-47b6-9c8a-f73ddbe84ea3")
 	)
+	(label "MDIN1"
+		(at 438.15 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "44e212c0-7323-473e-9971-eb416c041d37")
+	)
 	(label "TXP2"
 		(at 147.32 217.17 0)
 		(effects
@@ -12164,16 +12164,6 @@
 			(justify left bottom)
 		)
 		(uuid "6cf67b4e-91d7-4a7f-9888-ec18fdf8be3f")
-	)
-	(label "MDIP1"
-		(at 438.15 44.45 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6d3aebaa-e3f0-438a-8739-f1f23bd7c81b")
 	)
 	(label "RXN2"
 		(at 147.32 212.09 0)
@@ -12375,16 +12365,6 @@
 		)
 		(uuid "9835ae0e-ee84-4568-bcdd-4eef70c5c8c2")
 	)
-	(label "MDIP2"
-		(at 438.15 49.53 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "998a9392-5ff3-4135-972a-4903af634213")
-	)
 	(label "RXP3"
 		(at 104.14 209.55 180)
 		(effects
@@ -12465,6 +12445,16 @@
 		)
 		(uuid "a9a428ad-d008-4753-b255-8253fa0065ba")
 	)
+	(label "MDIP1"
+		(at 438.15 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a9a860ce-796f-4766-98c7-2c3fdd56ec3a")
+	)
 	(label "USBC_OUT_RXP1"
 		(at 83.82 92.71 180)
 		(effects
@@ -12544,6 +12534,16 @@
 			(justify right bottom)
 		)
 		(uuid "b7dc2116-6ab8-4238-a347-794af904bd00")
+	)
+	(label "MDIP2"
+		(at 438.15 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b7e96c68-2a57-4331-9f6d-4e8ba6243763")
 	)
 	(label "RXN0"
 		(at 146.05 257.81 0)
@@ -12724,6 +12724,16 @@
 			(justify right bottom)
 		)
 		(uuid "d1eb8155-aa72-44a0-9cd8-34a7d77df219")
+	)
+	(label "MDIN2"
+		(at 438.15 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d25c3528-a06d-462c-a7fe-4fe4355ab980")
 	)
 	(label "USBC_IN_TXN2"
 		(at 295.91 347.98 180)
@@ -12934,16 +12944,6 @@
 			(justify right bottom)
 		)
 		(uuid "f828c377-5b2b-4ce4-a1c6-377b99cc3468")
-	)
-	(label "MDIN1"
-		(at 438.15 46.99 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "faba0da1-fb7c-4d95-8410-76ca1e3a8db5")
 	)
 	(label "DP1"
 		(at 68.58 382.27 180)
