@@ -69,7 +69,7 @@ its a 4 port\* usb 3.0 gen1 hub with usb c as a upstream port. It is fully open 
 # Credit
  Shoutout to [@tobycm](https://github.com/tobycm) for being the goat and help me a lot with ts project <3\
  This project use kicad, onboard for designing case and pcb\
- Thanks to [Hackclub](https://hackclub.com/) , especially to people running [Fallout](https://fallout.hackclub.com/) for making this project possible.
+ Thanks to [Hackclub](https://hackclub.com/) , especially to people running [Fallout](https://fallout.hackclub.com/) for making this project possible :3
 
 # LICENSE
 its [MIT](https://opensource.org/license/mit)!! (basically u can do anything with ts). checkout [LICENSE](LICENSE)
