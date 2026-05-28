@@ -15,7 +15,13 @@ its a 4 port\* usb 3.0 gen1 hub with usb c as a upstream port. It is fully open 
 # How to use it?
  💀 its an usb hub dude, just plug the usb c upstream to a pc and plug peripheral into the usb c and a port 😭
 
-# 3D image of the PCB
+# 3D image 
+- With case:
+![case](Image/case.png)
+
+-Without case
+
+
 ![3d image](Image/3d_front.png)
 
 ![3d back image](Image/3d_back.png)
