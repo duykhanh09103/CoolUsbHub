@@ -16,7 +16,7 @@ its a 4 port\* usb 3.0 gen1 hub with usb c as a upstream port. It is fully open 
  💀 its an usb hub dude, just plug the usb c upstream to a pc and plug peripheral into the usb c and a port 😭
 
 # 3D image 
-- With case:
+- With case: (pss, check it out on [onshape](https://cad.onshape.com/documents/b8187d4a30cc3b22176f8391/w/6bf875d6f0e4efab8544a163/e/2b79dfe3cdb89a71b66a7f8a?renderMode=0&uiState=6a1873326ab1afd1b1dcb9ab))
 ![case](Image/case.png)
 
 -Without case
