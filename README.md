@@ -19,6 +19,10 @@ its a 4 port\* usb 3.0 gen1 hub with usb c as a upstream port. It is fully open 
 - With case:
 ![case](Image/case.png)
 
+case 2!!
+
+![case_honeycomb](Image/case_honeycomb.png)
+
 -Without case
 
 
