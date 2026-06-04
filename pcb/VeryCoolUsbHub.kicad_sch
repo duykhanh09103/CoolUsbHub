@@ -10037,13 +10037,23 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 83.82) (xy 306.07 83.82)
+			(xy 337.82 83.82) (xy 306.07 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1b03eaf5-cc5c-46ff-a207-6741221df003")
+	)
+	(wire
+		(pts
+			(xy 500.38 336.55) (xy 500.38 325.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e84bce4-4069-420b-9f23-4ea951014ab4")
 	)
 	(wire
 		(pts
@@ -10167,7 +10177,7 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 93.98) (xy 306.07 93.98)
+			(xy 350.52 93.98) (xy 306.07 93.98)
 		)
 		(stroke
 			(width 0)
@@ -10227,16 +10237,6 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 93.98) (xy 322.58 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35a02681-f0ae-4bed-82be-6dcea652a754")
-	)
-	(wire
-		(pts
 			(xy 48.26 394.97) (xy 69.85 394.97)
 		)
 		(stroke
@@ -10254,16 +10254,6 @@
 			(type default)
 		)
 		(uuid "388c918d-6a1d-4a91-bbcc-fa95ac2b1b7a")
-	)
-	(wire
-		(pts
-			(xy 505.46 336.55) (xy 505.46 325.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b5c8120-19d1-4962-ac2f-60581c8b85cc")
 	)
 	(wire
 		(pts
@@ -10357,6 +10347,16 @@
 	)
 	(wire
 		(pts
+			(xy 363.22 93.98) (xy 360.68 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44ed1a6a-7936-4e4c-a02f-b1421a5ceea2")
+	)
+	(wire
+		(pts
 			(xy 250.19 121.92) (xy 255.27 121.92)
 		)
 		(stroke
@@ -10427,7 +10427,7 @@
 	)
 	(wire
 		(pts
-			(xy 505.46 312.42) (xy 500.38 312.42)
+			(xy 511.81 312.42) (xy 500.38 312.42)
 		)
 		(stroke
 			(width 0)
@@ -10534,16 +10534,6 @@
 			(type default)
 		)
 		(uuid "5e5622a8-e0c0-45d2-b0f8-16686b4e0a6d")
-	)
-	(wire
-		(pts
-			(xy 523.24 336.55) (xy 505.46 336.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ea2c184-645e-435d-8437-8c3b739fd231")
 	)
 	(wire
 		(pts
@@ -10657,7 +10647,7 @@
 	)
 	(wire
 		(pts
-			(xy 538.48 314.96) (xy 528.32 314.96)
+			(xy 549.91 314.96) (xy 528.32 314.96)
 		)
 		(stroke
 			(width 0)
@@ -10747,7 +10737,7 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 86.36) (xy 306.07 86.36)
+			(xy 331.47 86.36) (xy 306.07 86.36)
 		)
 		(stroke
 			(width 0)
@@ -10847,7 +10837,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 86.36) (xy 334.01 86.36)
+			(xy 354.33 86.36) (xy 341.63 86.36)
 		)
 		(stroke
 			(width 0)
@@ -11057,7 +11047,7 @@
 	)
 	(wire
 		(pts
-			(xy 518.16 312.42) (xy 515.62 312.42)
+			(xy 539.75 312.42) (xy 521.97 312.42)
 		)
 		(stroke
 			(width 0)
@@ -11167,7 +11157,7 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 96.52) (xy 334.01 96.52)
+			(xy 336.55 96.52) (xy 334.01 96.52)
 		)
 		(stroke
 			(width 0)
@@ -11364,6 +11354,16 @@
 			(type default)
 		)
 		(uuid "c365d58d-b7cb-4817-8ec8-37aa2c31bc6a")
+	)
+	(wire
+		(pts
+			(xy 347.98 83.82) (xy 354.33 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c556d64f-9766-4037-a22d-3b3b9860e977")
 	)
 	(wire
 		(pts
@@ -11707,17 +11707,7 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 83.82) (xy 321.31 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f45ba545-807b-4969-b752-3c0d859d8f2d")
-	)
-	(wire
-		(pts
-			(xy 505.46 325.12) (xy 500.38 325.12)
+			(xy 500.38 336.55) (xy 523.24 336.55)
 		)
 		(stroke
 			(width 0)
@@ -11916,7 +11906,7 @@
 		(uuid "205ee3ad-d104-49b3-b5ea-1b62c24d39d9")
 	)
 	(label "USBC_OUT_TXN1"
-		(at 355.6 93.98 0)
+		(at 363.22 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11956,7 +11946,7 @@
 		(uuid "23f7d61e-9710-4a97-9785-bbcc62d26646")
 	)
 	(label "USBC_OUT_TXN2"
-		(at 323.85 83.82 0)
+		(at 354.33 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12036,7 +12026,7 @@
 		(uuid "3108c316-8ff4-40ea-bedd-60e9aaf54bf4")
 	)
 	(label "USBC_OUT_TXP2"
-		(at 344.17 86.36 0)
+		(at 354.33 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12066,7 +12056,7 @@
 		(uuid "3515da88-5db0-4f84-b5db-1433543d5899")
 	)
 	(label "USBC_OUT_TXP1"
-		(at 346.71 96.52 0)
+		(at 336.55 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12456,7 +12446,7 @@
 		(uuid "937bb24c-d165-42eb-a95f-6cc39624dd1c")
 	)
 	(label "USBC_IN_TXP2"
-		(at 538.48 314.96 0)
+		(at 549.91 314.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13046,7 +13036,7 @@
 		(uuid "f2e09ca8-7ba2-4b2b-b7da-b6c65019524d")
 	)
 	(label "USBC_IN_TXN2"
-		(at 518.16 312.42 0)
+		(at 539.75 312.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13094,6 +13084,270 @@
 			(justify right bottom)
 		)
 		(uuid "ffb39ef8-78fe-4583-a5f2-8f6f91d003a3")
+	)
+	(global_label "IN_C_TXP2"
+		(shape input)
+		(at 500.38 314.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0152df6d-7701-4842-9fd6-749c212a4b53")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 513.1623 314.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IN_C_TXP1"
+		(shape input)
+		(at 500.38 336.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "032e785d-7f77-4b7c-8c3e-cfd5ba7474dd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 513.1623 336.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IN_C_TXN1"
+		(shape input)
+		(at 500.38 322.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "08e3a30a-20bb-4045-bb72-2789af4d80cf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 513.2228 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TXN2+"
+		(shape input)
+		(at 71.12 349.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "20c48d8f-2880-4a98-abee-2845792b0fdf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 61.8453 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_TXP1"
+		(shape input)
+		(at 69.85 394.97 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3bf2e1a3-5276-4120-ba7e-39c04c621334")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.4306 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TXN2-"
+		(shape input)
+		(at 71.12 346.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7228b8bc-60fe-45a8-833f-ca7951f18737")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 61.8453 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C_TXP2"
+		(shape input)
+		(at 306.07 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8844d868-6616-482d-88e4-1d47e99a18cf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 315.9494 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C_TXN2"
+		(shape input)
+		(at 306.07 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9bb03003-cf68-45d1-90e5-b37a321fb35f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 316.0099 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C_TXN1"
+		(shape input)
+		(at 306.07 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9cee5302-a1db-472d-aa68-ca4433658966")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 316.0099 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IN_C_TXN2"
+		(shape input)
+		(at 500.38 312.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b981a9db-af2d-44b6-8408-4b07bbe4d34c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 513.2228 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C_TXP1"
+		(shape input)
+		(at 306.07 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e1daffab-dfcb-4a03-a7c3-ac64640d8b5d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 315.9494 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_TXN1"
+		(shape input)
+		(at 69.85 397.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ef14b91d-2cbc-49b4-ba2d-f1bba9896e7b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.3701 397.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -14380,7 +14634,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:CC0603KRX7R9BB104")
-		(at 510.54 312.42 180)
+		(at 516.89 312.42 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14388,7 +14642,7 @@
 		(dnp no)
 		(uuid "1081e6ae-362b-4868-9794-d0667e77e23d")
 		(property "Reference" "C20"
-			(at 520.7 306.324 0)
+			(at 527.05 306.324 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14397,7 +14651,7 @@
 			)
 		)
 		(property "Value" "CC0603KRX7R9BB104"
-			(at 507.492 289.56 90)
+			(at 513.842 289.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14407,7 +14661,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:C0603"
-			(at 510.54 304.8 0)
+			(at 516.89 304.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14416,7 +14670,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
-			(at 510.54 302.26 0)
+			(at 516.89 302.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14425,7 +14679,7 @@
 			)
 		)
 		(property "Description" "50V/100nF/±10%/0603"
-			(at 520.954 309.118 0)
+			(at 527.304 309.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14433,7 +14687,7 @@
 			)
 		)
 		(property "LCSC Part" "C14663"
-			(at 510.54 299.72 0)
+			(at 516.89 299.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15160,7 +15414,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:CC0603KRX7R9BB104")
-		(at 317.5 93.98 0)
+		(at 355.6 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15168,7 +15422,7 @@
 		(dnp no)
 		(uuid "1cc18f92-892f-48f6-a340-03e545aa637c")
 		(property "Reference" "C10"
-			(at 314.452 101.346 0)
+			(at 366.776 100.076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15177,7 +15431,7 @@
 			)
 		)
 		(property "Value" "CC0603KRX7R9BB104"
-			(at 320.548 116.84 90)
+			(at 358.648 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15187,7 +15441,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:C0603"
-			(at 317.5 101.6 0)
+			(at 355.6 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15196,7 +15450,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
-			(at 317.5 104.14 0)
+			(at 355.6 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15205,7 +15459,7 @@
 			)
 		)
 		(property "Description" "50V/100nF/±10%/0603"
-			(at 316.23 99.06 0)
+			(at 368.046 97.536 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15213,7 +15467,7 @@
 			)
 		)
 		(property "LCSC Part" "C14663"
-			(at 317.5 106.68 0)
+			(at 355.6 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15706,7 +15960,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:CC0603KRX7R9BB104")
-		(at 316.23 83.82 180)
+		(at 342.9 83.82 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15714,7 +15968,7 @@
 		(dnp no)
 		(uuid "259eac23-3e63-4acf-a3f6-95ec77a1351a")
 		(property "Reference" "C23"
-			(at 326.39 77.724 0)
+			(at 353.06 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15723,7 +15977,7 @@
 			)
 		)
 		(property "Value" "CC0603KRX7R9BB104"
-			(at 313.182 60.96 90)
+			(at 339.852 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15733,7 +15987,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:C0603"
-			(at 316.23 76.2 0)
+			(at 342.9 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15742,7 +15996,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
-			(at 316.23 73.66 0)
+			(at 342.9 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15751,7 +16005,7 @@
 			)
 		)
 		(property "Description" "50V/100nF/±10%/0603"
-			(at 326.644 80.518 0)
+			(at 353.314 80.518 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15759,7 +16013,7 @@
 			)
 		)
 		(property "LCSC Part" "C14663"
-			(at 316.23 71.12 0)
+			(at 342.9 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19846,7 +20100,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:CC0603KRX7R9BB104")
-		(at 328.93 86.36 180)
+		(at 336.55 86.36 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19854,7 +20108,7 @@
 		(dnp no)
 		(uuid "9143e1ee-c89e-4456-877a-a01076856e33")
 		(property "Reference" "C24"
-			(at 335.788 89.408 0)
+			(at 343.408 89.408 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19863,7 +20117,7 @@
 			)
 		)
 		(property "Value" "CC0603KRX7R9BB104"
-			(at 325.882 63.5 90)
+			(at 333.502 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19873,7 +20127,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:C0603"
-			(at 328.93 78.74 0)
+			(at 336.55 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19882,7 +20136,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
-			(at 328.93 76.2 0)
+			(at 336.55 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19891,7 +20145,7 @@
 			)
 		)
 		(property "Description" "50V/100nF/±10%/0603"
-			(at 334.518 91.44 0)
+			(at 342.138 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19899,7 +20153,7 @@
 			)
 		)
 		(property "LCSC Part" "C14663"
-			(at 328.93 73.66 0)
+			(at 336.55 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
