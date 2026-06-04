@@ -78,7 +78,7 @@ case 2!!
 
 # Credit
  Shoutout to [@tobycm](https://github.com/tobycm) for being the goat and help me a lot with ts project <3\
- This project use kicad, onboard for designing case and pcb\
+ This project use kicad, onshape for designing case and pcb\
  Thanks to [Hackclub](https://hackclub.com/) , especially to people running [Fallout](https://fallout.hackclub.com/) for making this project possible :3
 
 # LICENSE
