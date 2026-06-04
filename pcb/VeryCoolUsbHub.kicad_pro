@@ -635,6 +635,14 @@
       {
         "netclass": "Ethernet 100ohm",
         "pattern": "/MDI*"
+      },
+      {
+        "netclass": "USB 85ohm",
+        "pattern": "C_TX*"
+      },
+      {
+        "netclass": "USB 85ohm",
+        "pattern": "IN_C_TX*"
       }
     ]
   },
