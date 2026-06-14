@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.0,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
@@ -578,7 +578,7 @@
         "via_drill": 0.3
       },
       {
-        "clearance": 0.2032,
+        "clearance": 0.791,
         "diff_pair_gap": 0.2032,
         "diff_pair_width": 0.1786,
         "name": "USB 85ohm",

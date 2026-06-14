@@ -9756,16 +9756,8 @@
 		(uuid "c513e62f-6713-4f1c-9204-27483b837f31")
 	)
 	(no_connect
-		(at 270.51 55.88)
-		(uuid "c5f7d6ac-0c14-4236-a56b-16693df9e99e")
-	)
-	(no_connect
 		(at 288.29 219.71)
 		(uuid "c83fdecb-04e4-41f7-8c22-b12a2e8a90df")
-	)
-	(no_connect
-		(at 464.82 284.48)
-		(uuid "cae32700-b610-4e34-ba27-e572f2009b56")
 	)
 	(no_connect
 		(at 474.98 284.48)
@@ -15491,6 +15483,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 270.51 55.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20323526-6c8f-456d-91f4-7d8e79ce2ea3")
+		(property "Reference" "#PWR029"
+			(at 270.51 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 270.51 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 270.51 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 270.51 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37e3e889-19ff-40ae-9cd2-a7f05a853498")
+		)
+		(instances
+			(project "VeryCoolUsbHub"
+				(path "/a66e963d-9223-4dd6-b11b-c5e7c640f212"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "EasyEDA:RC0603FR-07200KL")
 		(at 454.66 350.52 0)
 		(unit 1)
@@ -21154,6 +21212,72 @@
 			(project "VeryCoolUsbHub"
 				(path "/a66e963d-9223-4dd6-b11b-c5e7c640f212"
 					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 464.82 284.48 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae22d371-393b-485f-8756-db4c36568342")
+		(property "Reference" "#PWR034"
+			(at 464.82 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 464.82 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 464.82 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 464.82 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 464.82 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b58ec8d8-b94b-489f-a31b-09c4810a4b2b")
+		)
+		(instances
+			(project "VeryCoolUsbHub"
+				(path "/a66e963d-9223-4dd6-b11b-c5e7c640f212"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
