@@ -71,6 +71,8 @@ case 2!!
 ## PCB Parts
 > [!IMPORTANT]
 > This will include how much components you need to use per 1 PCB and the MOQ (minimum of quanity) you can buy. The price will be listed in MOQ. The final price is included everything except shipping.
+
+
 > [!WARNING]
 >  There might be different capacitor/resistor part from production bom because of out of stock
 
