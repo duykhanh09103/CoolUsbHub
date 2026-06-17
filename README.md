@@ -56,6 +56,9 @@ case 2!!
 > This is the total of the bom including both thing below, do not double count by combining them
 > You can leave thing that you already have out of the bom to reduce cost
 
+> [!TIP]
+> For any hcer reading this, there is jlc and lcsc cart image in /Image
+
 
 | Name                    | Amount | Price | Source/Where To Buy | Note                                                     |
 |-------------------------|--------|-------|---------------------|----------------------------------------------------------|
