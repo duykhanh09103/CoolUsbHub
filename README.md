@@ -63,7 +63,7 @@ case 2!!
 | Name                    | Amount | Price | Source/Where To Buy | Note                                                     |
 |-------------------------|--------|-------|---------------------|----------------------------------------------------------|
 | PCB                     | 5      | $12   | JLCPCB              | 4 layer, specify 3313 in stackup(i got white so its 12$) |
-| 3D Printed Case         | 2      | $2.74 |                     |                                                          |
+| 3D Printed Case         | 2      | $2.74 | JLC3DP              |                                                          |
 | PCB Parts               | 2      | $30.86| LCSC                |                                                          |
 | Tools and miscellaneous | 1      | $22   |                     |                                                          |
 | Shipping                |        | $11   |                     |                                                          |
