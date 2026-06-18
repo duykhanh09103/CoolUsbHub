@@ -114,6 +114,8 @@ case 2!!
 | Solder paste/wire | 1      | $1     | Idk its everywhere       |
 
 # How to build??? (soon 👀)
+- Order pcb from jlc/any pcb vendor with gerber.zip inside /pcb/production
+- there will be video on building one soon
 
 # Credit
  Shoutout to [@tobycm](https://github.com/tobycm) for being the goat and help me a lot with ts project <3\
