@@ -52,29 +52,68 @@ case 2!!
   ![layer4](Image/pcb_layer4.png)
 
 # BOM (Bill Of Materials)
+> [!IMPORTANT]
+> This is the total of the bom including both thing below, do not double count by combining them
+> You can leave thing that you already have out of the bom to reduce cost
 
-| Part               | Amount | Price                          | Link                                                                                                                                                                                               |
-|--------------------|--------|--------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| PCB                | 5      | $7                             | jlcpcb.com/                                                                                                                                                                                        |
-| 100nF Capacitor    | 31     | $0.35                          | https://www.lcsc.com/product-detail/C14663.html                                                                                                                                                    |
-| 39 pF Capacitor    | 4      | $0.32                          | https://www.lcsc.com/product-detail/C107049.html                                                                                                                                                   |
-| 10 uF Capacitor    | 1      | $0.25                          | https://www.lcsc.com/product-detail/C19702.html                                                                                                                                                    |
-| Ethernet Adapter   | 1      | $4.26                          | https://www.lcsc.com/product-detail/C2802072.html                                                                                                                                                  |
-| 10k ohm resistor   | 2      | $0.09                          | https://www.lcsc.com/product-detail/C60490.html                                                                                                                                                    |
-| 200k ohm resistor  | 2      | $0.16                          | https://www.lcsc.com/product-detail/C105574.html                                                                                                                                                   |
-| 20k ohm resistor   | 3      | $0.10                          | https://www.lcsc.com/product-detail/C93942.html                                                                                                                                                    |
-| 1k ohm resistor    | 1      | $0.09                          | https://www.lcsc.com/product-detail/C106235.html                                                                                                                                                   |
-| 4.7 k ohm resistor | 1      | $0.34                          | https://www.lcsc.com/product-detail/C509343.html                                                                                                                                                   |
-| 2.49k ohm resistor | 1      | $0.57                          | https://shopee.vn/Tr%E1%BB%9F-d%C3%A1n-0402-tr%E1%BB%8B-s%E1%BB%91-trong-2K-(-2K-2.2K-2.26K-2.32K-2.49K-2.55K-2.61K-2.67K-2.7K-2.74K-2.8K-2.87K-)-d%C3%B9ng-cho-th%E1%BB%A3-i.72014335.17404856692 |
-| RJ45 connector     | 1      | $2.51                          | https://www.lcsc.com/product-detail/C54408.html                                                                                                                                                    |
-| USB C mux          | 2      | $3.89                          | https://www.lcsc.com/product-detail/C165155.html                                                                                                                                                   |
-| USB C receptacle   | 2      | $1.48                          | https://www.lcsc.com/product-detail/C20883027.html                                                                                                                                                 |
-| USB Controller     | 1      | $1.46                          | https://www.lcsc.com/product-detail/C7501408.html                                                                                                                                                  |
-| 25mhz Crystal      | 2      | $0.75                          | https://www.lcsc.com/product-detail/C13740.html                                                                                                                                                    |
-| 900k ohm resistor  | 1      | $0.45                          | https://www.lcsc.com/product-detail/C871726.html                                                                                                                                                   |
-| USB A receptacle   | 2      | $0.65                          | https://www.lcsc.com/product-detail/C2845330.html                                                                                                                                                  |
-| Total              |        | 24.11$ (shipping not included) |                                                                                                                                                                                                    |
+> [!TIP]
+> For any hcer reading this, there is jlc and lcsc cart image in /Image
 
+
+| Name                    | Amount | Price | Source/Where To Buy | Note                                                     |
+|-------------------------|--------|-------|---------------------|----------------------------------------------------------|
+| PCB                     | 5      | $12   | JLCPCB              | 4 layer, specify 3313 in stackup(i got white so its 12$) |
+| 3D Printed Case         | 2      | $2.74 | JLC3DP              |                                                          |
+| PCB Parts               | 2      | $30.86| LCSC                |                                                          |
+| Tools and miscellaneous | 1      | $22   |                     |                                                          |
+| Shipping                |        | $11   |                     |                                                          |
+| Coupon from fallout     |        | -$15  |                     |                                                          |
+|                         |        |       |                     |                                                          |
+| Total                   |        | $63.6 |                     |                                                          |
+
+## PCB Parts
+> [!IMPORTANT]
+> This will include how much components you need to use per 1 PCB and the MOQ (minimum of quanity) you can buy. The price will be listed in MOQ. The final price is included everything except shipping.
+
+
+> [!WARNING]
+>  There might be different capacitor/resistor part from production bom because of out of stock
+
+
+|            Name           | Amount | MOQ |  Price  |         Note         | LCSC Number |
+|---------------------------|--------|-----|---------|----------------------|-------------|
+| 39pf 50v 0603 Capacitor   | 4      | 100 | $0.48   |                      | C107049     |
+| 10uF 10v 0603 Capacitor   | 1      | 20  | $0.53   |                      | C19702      |
+| RTL8153B-VB-CG            | 1      | 1   | $3.64   | Ethernet chip (1gb)  | C2802072    |
+| 20kΩ 62.5mW 0402 Resistor | 3      | 100 | $0.10   |                      | C93942      |
+| 4.7kΩ 63mW 0402 Resistor  | 1      | 100 | $0.44   |                      | C509343     |
+| RJ45 Jack                 | 1      | 1   | $2.51   |                      | C54408      |
+| HD3SS3220RNHR             | 2      | 1   | $1.9032 | USB TYPE C MUX       | C165155     |
+| Type C Receptacle         | 2      | 5   | $1.60   | on sale              | C20883027   |
+| GL3510-OSY52              | 1      | 1   | $1.46   | USB HUB              | C7501408    |
+| Type A Receptacle         | 2      | 5   | $0.66   |                      | C2845330    |
+| 25MHz 20pf crystal        | 2      | 10  | $0.98   |                      | C13740      |
+| 900kΩ 250mW 1206 Resistor | 1      | 10  | $0.63   |                      | C871726     |
+| 10kΩ 62.5mW 0402 Resistor | 2      | 100 | $0.27   |                      | C2906861    |
+| 1kΩ 62.5mW 0402 Resistor  | 1      | 50  | $0.89   |                      | C852624     |
+| 200kΩ 100mW 0603 Resistor | 2      | 100 | $0.22   | on sale              | C2907009    |
+| 100nF 50V 0603 Capacitor  | 31     | 50  | $0.92   |                      | C282518     |
+| 2.49k X   0402 Resistor   | 1      | 100 | 15k VND | I got it from shopee | X           |
+|                           |        |     |         |                      |             |
+| Total                     |        |     | $19.44  |                      |             |
+
+## Tool and miscellaneous
+> [!NOTE]
+> If you have the tool already or wanna do this differently, you do not need to buy these
+
+|        Name       | Amount |  Price |          Source          |
+|-------------------|--------|--------|--------------------------|
+| Hot air gun       | 1      | $21    | Lazada                   |
+| Flux              | 1      | $1     | Shopee                   |
+| Pinecil           | 1      | $25.99 | Pinecil official website |
+| Solder paste/wire | 1      | $1     | Idk its everywhere       |
+
+# How to build??? (soon 👀)
 
 # Credit
  Shoutout to [@tobycm](https://github.com/tobycm) for being the goat and help me a lot with ts project <3\
